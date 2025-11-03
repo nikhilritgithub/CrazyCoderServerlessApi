@@ -71,6 +71,7 @@ const codechefRating = async (req, res) => {
     }
 };
 
+
 const codeforcesRating = async (req, res) => {
     const users = req.params.users;
     const url = codeforcesBaseUrl + users;
