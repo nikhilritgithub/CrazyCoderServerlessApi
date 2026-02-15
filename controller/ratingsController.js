@@ -66,7 +66,7 @@ const codechefRating = async (req, res) => {
         console.log('Error in codechef Rating Fun -> ', err);
         res.status(503).json({
             success: false,
-            message: 'Opps! Some error occurred',
+            message: 'Opps! Some error occurred again',
         });
     }
 };
